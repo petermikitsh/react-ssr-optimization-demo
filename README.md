@@ -6,13 +6,14 @@ Usage
 
 ```
 npm install
-NODE_ENV=production node index.js
+webpack
+NODE_ENV=production node build.js
 ```
 
 Output
 ======
 
-Output below used Node v6.0.0.
+Output below used Node v6.9.5.
 
 ```
 renderCount is 1
