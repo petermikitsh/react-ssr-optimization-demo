@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/petermikitsh/react-ssr-optimization-demo/issues"
   },
-  "homepage": "https://github.com/petermikitsh/react-ssr-optimization-demo#readme"
+  "homepage": "https://github.com/petermikitsh/react-ssr-optimization-demo#readme",
+  "dependencies": {
+    "react": "15.4.2",
+    "react-dom": "15.4.2",
+    "react-ssr-optimization": "0.0.7"
+  }
 }
