@@ -1,28 +1,21 @@
 react-ssr-optimization-demo
 ===========================
 
+This repo shows how to use 'electrode-react-ssr-caching' with (or without) Webpack.
+
 Usage
 =====
 
 ```
 npm install
-webpack
-NODE_ENV=production node build.js
+NODE_ENV=production node index.js # run directly
+webpack && NODE_ENV=production node build.js # run compiled webpack
 ```
 
 Output
 ======
 
-Output below used Node v6.9.5.
-
-```
-renderCount is 1
-renderCount is 2
-renderCount is 3
-```
-
-Expected output
-===============
+The output of the program verifies the caching is indeed working.
 
 ```
 renderCount is 1
